@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CRUDdy product reviews</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- jQuery, Bootstrap -->
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- Custom files -->
+<script type="text/javascript" src="js/login.js"></script>
+<link rel="stylesheet" href="css/main.css"/>
+<!--font-->
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+<!--Parse files-->
+	<script src="https://www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+    <script src="raty/lib/jquery.raty.js"></script>
+    <link rel="stylesheet" href="raty/lib/jquery.raty.css"/>
+    <!-- moustache template tool link -->
+    <script src="mustache.js-master/mustache.js"></script>
+</head>
+
+<body>
+<div class="container-fluid header">
+<div class="row">
+	<div id="headContainer" class="col-sm-11">
+    	<img src="img/cruddy.svg" alt="this.is.cruddy" class="logo">
+    	<span class="importantCrud">CRUD</span>dy product reviews
+    </div>
+    <div id="buttonContainer" class="col-sm-1">
+    	<button type="button" class="btn btn-default loginButton revButton" id="loginButton">Login</button>
+    </div>
+</div>
+</div> 
+
+<div class="container mainfield loginContainer">
+<div class="alert alert-danger" role="alert" id="loginAlert">
+  <span class="glyphicon glyphicon-exclamation-sign"></span>
+  <span class="sr-only">Error:</span>
+  <span id="errorText"> Unknown Error</span>
+</div>
+<div id="info">Log in below!</div>
+<form id="loginForm">
+  <div class="form-group">
+    <label for="loginName">Name</label>
+    <input type="text" class="form-control" id="loginName" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="loginPassword">Password</label>
+    <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+  </div>
+  	<div class="btn-group" role="group">
+		<button type="submit" class="btn btn-default revButton logSubButton" id="loginButton">Log in</button>
+        <button type="button" class="btn btn-default revButton logSubButton" id='regButton'>Register</button>
+	</div>
+</form>
+</div>
+</body>
+</html>

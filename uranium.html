@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CRUDdy product reviews</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- jQuery, Bootstrap -->
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- Custom files -->
+<script type="text/javascript" src="js/reviews.js"></script>
+<link rel="stylesheet" href="css/main.css"/>
+<!--font-->
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+<!--Parse files-->
+<script src="https://www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+    <script src="raty/lib/jquery.raty.js"></script>
+    <link rel="stylesheet" href="raty/lib/jquery.raty.css"/>
+    <!-- moustache template tool link -->
+    <script src="mustache.js-master/mustache.js"></script>
+</head>
+
+<body>
+<div class="container-fluid header">
+<div class="row">
+	<div id="headContainer" class="col-sm-11">
+    	<img src="img/cruddy.svg" alt="this.is.cruddy" class="logo">
+    	<span id="importantCrud">CRUD</span>dy product reviews
+    </div>
+    <div id="buttonContainer" class="col-sm-1">
+    	<button type="button" class="btn btn-default loginButton revButton" id="revLogout">Logout</button>
+    </div>
+</div>
+</div> 
+
+<div class="container mainfield" id="review1">
+	<h1><span class="importantCrud">CRUD of the day:</span>  Yellow-cake Uranium, 10oz Tin</h1>
+    
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><img src="data0/images/autunite_1france.jpg" alt="Fresh Uranium Ore" title="Fresh Uranium Ore" id="wows0_0"/></li>
+		<li><img src="data0/images/c5fbed2f575a41bb886ef26700d432552060x1236.jpg" alt="Prepared by professionals!" title="Prepared by professionals!" id="wows0_1"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data0/images/s14s.jpg" alt="slider" title="Made from the finest ingredients" id="wows0_2"/></a></li>
+		<li><img src="data0/images/uraniumoxide.jpg" alt="Refrigerated and delivered fresh to your door!" title="Refrigerated and delivered fresh to your door!" id="wows0_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Fresh Uranium Ore"><span><img src="data0/tooltips/autunite_1france.jpg" alt="Fresh Uranium Ore"/>1</span></a>
+		<a href="#" title="Prepared by professionals!"><span><img src="data0/tooltips/c5fbed2f575a41bb886ef26700d432552060x1236.jpg" alt="Prepared by professionals!"/>2</span></a>
+		<a href="#" title="Made from the finest ingredients"><span><img src="data0/tooltips/s14s.jpg" alt="Made from the finest ingredients"/>3</span></a>
+		<a href="#" title="Refrigerated and delivered fresh to your door!"><span><img src="data0/tooltips/uraniumoxide.jpg" alt="Refrigerated and delivered fresh to your door!"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslideshow</a> by WOWSlider.com v8.6</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+	<!-- End WOWSlider.com BODY section --><!--WowSlider opensource software used for slideshow design-->
+    <div id="info">
+    <div id="description">
+Average Rating: <div id="avRate"></div>
+<br />
+<br />
+         <p>
+Sanctions got you feeling down? Bombs not working? Well, turn to the pros and ensure the success of your plan. 
+        </p>
+    	<p>
+This product features prime, yellow-cake uranium, delivered in a collectible 10oz tin. This is some of the best uranium on the market, and is a great gift for loved ones, friends, and dictators. This is also a great way to treat yourself. An absolute must-have for evil scientists, authoritarian rulers, and world domination enthusiasts!
+        </p>
+	</div>
+    <div id="rateMe" class="container">
+    	<form role="form" id="writeReview">
+            <div class="row">
+                <div class="col-sm-12">Rating:<div id="rate"></div></div><br />
+            </div>
+            <br />
+            <br />
+            
+            <div class="row">
+                <div class="col-sm-12">
+                        <div class="form-group">
+                          <label for="review">Review:</label>
+                          <textarea class="form-control" rows="5" id="review"></textarea>
+                          <button type="submit" class="btn btn-default revButton logSubButton rateSubmit" id="addReview">Submit</button>
+                        </div>
+
+                </div>
+            </div>
+		</form>
+        
+    </div>
+    
+</div>
+
+</div>
+<div class="container" id="revs">
+<!--
+<div class="aReview"><div class="row rowOne"><div class="revName col-xs-11">misha savva</div><div class="col-xs-1"><button type="button" class="btn btn-default loginButton revButton" id="myButton"><span class="glyphicon glyphicon-remove"></span></button></div></div><hr /><div class="row"><div id="rate1" class="col-sm-12"></div></div><div class="row"><div class="revText col-sm-12">{{reviewText}}</div></div><div class="row"><div class="col-xs-1"><button type="button" class="btn btn-default loginButton revButton thumbButton" id="thumbsUpButton"><span class="glyphicon glyphicon-thumbs-up"></span></button></div><div class="col-xs-1"><button type="button" class="btn btn-default loginButton revButton thumbButton" id="thumbsDownButton"><span class="glyphicon glyphicon-thumbs-down"></span></button></div></div><div class="row"><div class="col-xs-5 helpful">3 out of 5 found this review helpful</div></div></div>-->
+</div>
+</body>
+</html>

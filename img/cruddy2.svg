@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#000000" id="svg_7" ry="54.875" rx="86.000003" cy="160.625" cx="294.000003" stroke-opacity="0" stroke-width="5" fill="#ffff00"/>
+  <ellipse stroke="#000000" ry="47.5" rx="111.999997" id="svg_13" cy="142.5" cx="122.999995" stroke-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#000000"/>
+  <ellipse stroke="#000000" ry="99" rx="172" id="svg_2" cy="338" cx="295" stroke-opacity="0" stroke-width="5" fill="#ffff00"/>
+  <ellipse stroke="#000000" id="svg_5" ry="86.337211" rx="150.000004" cy="280.162789" cx="296.000004" stroke-opacity="0" stroke-width="5" fill="#ffff00"/>
+  <ellipse stroke="#000000" id="svg_6" ry="62.738369" rx="108.999995" cy="210.761631" cx="291.999995" stroke-opacity="0" stroke-width="5" fill="#ffff00"/>
+  <polygon stroke="#333333" stroke-width="5" points="416.5,33.29767990112305 455.72076416015625,146.13082885742188 575.1513671875,148.56466674804688 479.9605407714844,220.73318481445312 514.5519409179688,335.0705261230469 416.5,266.8399658203125 318.4480895996094,335.0705261230469 353.0394592285156,220.73318481445312 257.8486328125,148.56466674804688 377.27923583984375,146.13082885742188 416.5,33.29767990112305 455.72076416015625,146.13082885742188 " strokeWidth="5" strokecolor="#ffff00" fill="#ffffff" orient="point" r2="59.366133" r="148.415333" point="5" shape="star" id="svg_16" cy="72" cx="269"/>
+  <polygon stroke="#999999" id="svg_18" stroke-width="5" points="416.5,41.33047866821289 453.7430419921875,148.4739990234375 567.1513671875,150.78512573242188 476.76055908203125,219.3145294189453 509.607666015625,327.88641357421875 416.5,263.09637451171875 323.3923645019531,327.88641357421875 356.2394714355469,219.3145294189453 265.8486328125,150.78512573242188 379.2569580078125,148.4739990234375 416.5,41.33047866821289 453.7430419921875,148.4739990234375 " strokeWidth="5" strokecolor="#ffff00" fill="#ffffff" orient="point" r2="59.366133" r="148.415333" point="5" shape="star" cy="72" cx="269"/>
+ </g>
+</svg>

@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+	font-size:16px;
+}
+h1{
+	color: white;
+	margin-bottom: 50px;
+}
+.importantCrud{
+	color: #FF0;
+	font-weight:bold;
+}
+.header{
+	background-color:#000;
+	padding-top: 1.5em;
+	padding-bottom:1.5em;
+	padding-left: 1em;
+	color:#999;
+	font-size:23px;
+	clear: both;
+}
+.logo{
+	height:3.5em;
+}
+.loginButton{
+	margin-top:1em;
+	margin-right:2em;
+	background-color: #000;
+}
+.revButton{
+	color:#FFF;
+	border-color: #FFF;
+	margin-bottom:3em;
+}
+.revButton:hover{
+	background-color:#FF0;
+	color:#000;
+	border-color: #333;
+}
+.logSubButton{
+	border-color: #FFF;
+	background-color: #333;
+	margin-top:2em;
+}
+label{
+	color: #FFF;
+}
+
+#loginAlert, #regAlert{
+	visibility: hidden;
+	
+}
+.mainfield{
+	background-color: #333;
+	width: 90%;
+	padding: 30px;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.loginContainer{
+	padding-left:30%;
+	padding-right:30%;
+}
+#wowslider-container0{
+	box-shadow: 0 0 3pt 2pt black;
+	border-radius:10px;
+	
+}
+#info{
+	text-align:center;
+	color: #FFF;
+	margin-top:45px;
+	font-size: 18px;
+}
+#rate{
+	display:inline;
+	margin-left:1em;
+}
+#rateMe{
+	padding:0.5em;
+	box-shadow: 0 0 3pt 2pt black;
+	color:#000;
+	text-align:left;
+	background-color:#999;
+	width: 75%;
+	border-radius:10px;
+}
+#rateMe label{
+	color:#000;
+	font-weight:normal;
+	
+}
+.textfield{
+	width: 45em;
+	height: 5em;
+}
+.rateSubmit{
+	margin-bottom:1em;
+}
+#revs{
+	background-color:#999;
+	width: 90%;
+	margin-bottom:3em;
+	padding:2em;
+	
+}
+.aReview{
+	margin-bottom:30px;
+	background-color:#667;
+	box-shadow: 0 0 3pt 2pt black;
+	padding: 1em;
+}
+.revName{
+	font-weight:bold;
+	font-size:25px;
+}
+.revText{
+	color: #CCC;
+	font-size:18px;
+	padding-top: 0.5em;
+	padding-bottom:1em;
+}
+#description{
+	margin-bottom: 2em;
+}
+.thumbButton{
+	margin:5px;
+	margin-top: 15px;
+}
+@media (max-width: 767px) {
+	#buttonContainer{
+		margin-left: 5em;
+	}
+}
+
